@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'me.s1204.module.befake'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+        proguardFiles += 'proguard-rules.pro'
+        multiDexEnabled false
+    }
+
+    buildTypes {
+        configureEach {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+        }
+    }
+
+    buildFeatures{
+        buildConfig false
+        compose false
+    }
+
+    lint {
+        checkReleaseBuilds false
+    }
+
+    dependenciesInfo {
+        includeInApk false
+        includeInBundle false
+    }
+}
+
+dependencies {
+    compileOnly 'io.github.libxposed:api:100'
+}
