@@ -1,4 +1,4 @@
-# BeFake.
+# BeFool.
 
 Falsifying reality of [**BeReal.**](https://bereal.com)
 

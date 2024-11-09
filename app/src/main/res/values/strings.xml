@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name" translatable="false">BeFake.</string>
+    <string name="app_name" translatable="false">BeFool.</string>
     <string name="xposed_description">Falsifying reality of BeReal.</string>
 </resources>

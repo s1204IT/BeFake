@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'me.s1204.module.befake'
+    namespace 'me.s1204.module.befool'
     compileSdk 34
 
     defaultConfig {
